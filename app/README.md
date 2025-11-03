@@ -5,9 +5,9 @@ A minimal Streamlit application that calls OpenAI's Responses API to extract a s
 ## Setup
 
 ```bash
-python -m venv .venv && source .venv/bin/activate
+python -m venv set_builder_streamlit && source set_builder_streamlit/bin/activate
 pip install -r app/requirements.txt
-cp app/.env.example .env  # put your key
+cp app/.env .env  # put your key
 streamlit run app/app.py
 ```
 
